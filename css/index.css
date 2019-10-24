@@ -52,7 +52,12 @@ a {
 a:hover {
   background-image: linear-gradient(to top, #7a4ea2, #c07ed9), linear-gradient(to bottom, #8a48c9, #8a48c9);
   opacity: 0.8;
-  color: black;
+  color: white;
+}
+@media (min-width: 800px) {
+  a:hover {
+    color: black;
+  }
 }
 ul {
   list-style-type: none;
@@ -60,7 +65,7 @@ ul {
   background: black;
   color: #9b51e0;
   opacity: 0.8;
-  margin: 1px;
+  margin-right: 1px;
 }
 .nav-bar {
   display: flex;
